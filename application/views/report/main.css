@@ -1,0 +1,175 @@
+/*	
+div{
+	border:1px solid #000	;
+}
+*/
+.iconimg{
+	max-height:40px;
+	max-width:40px;
+}
+
+.iconimgcrud{
+	max-height:22px;
+	max-width:22px;
+}
+
+.navbar .nav {
+    margin-left:0px;
+    margin-top:10px;
+}
+
+.backcolorhead{
+	background-color:#3B5998;
+}
+
+.fbIndex {
+	background-color:#EDF0F5;
+}
+
+.errorm{
+	border:1px solid #ccf;
+	background-color:#EDFFFF;
+	padding-left: 15px;
+}
+
+.divpost{
+	left:-400px;
+	width:100%;
+	float:left;
+}
+
+.canvasjit {
+	min-width: 100%;
+	min-height: 100%;
+	max-height: 500px;
+	margin-top: 60px;	
+	top:30px;
+}
+
+.form-olahdata {	
+	max-width: 1200px;
+	padding: 19px 19px 19px;
+	margin: 20px auto 20px 20px;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+			border-radius: 5px;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	   -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+			box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+
+body, .divall, .btn-link{
+	font-size:.9em;
+	line-height:15px;
+}	 
+
+label{
+	font-size:12px;
+	line-height:15px;
+	height:15px;
+}	 
+ 
+select{
+	font-size:12px;
+	line-height:28px;
+	height:28px;
+	border: 1px solid #848484;
+	margin-bottom: 2px;
+}
+
+textarea
+{
+	border: 1px solid #848484;
+	margin-bottom: 2px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  text-align:left;	
+  display: inline-block;
+  height: 15px;
+  padding: 4px 6px;
+  margin-bottom: 2px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #555555;
+  border: 1px solid #848484;
+  vertical-align: middle;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}	
+
+.my_th{
+	background-color:#3B5998;
+	color:#fff;
+	text-align:center;
+}
+
+.ico{
+	src: '../img/text-plus-icon.png';
+}
+
+.divsubmeasure{
+	margin-left:50px;
+    margin-top:20px;
+}
+
+.contentsubmeasure{
+	border: 1px solid #EDF0F5;
+	width: 40%;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+}
+
+.divleft{
+	padding-left: 40px;
+}
+
+.availableview{
+	border: 1px solid #EDF0F5;
+	width:86%;
+	margin-bottom:20px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+}
+
+form.cmxform label.error, label.error {
+	/* remove the next line when you have trouble in IE6 with labels in list */
+	color: red;
+	font-style: italic
+}
+
+.footer{
+	border-top: 2px solid #010409;
+	color : #fff;
+	height:100px;
+	background-color:#3B5998;
+	margin-bottom:-80px;
+	text-align:left;
+	padding-top:10px;
+	padding-left:40px;
+	
+}
+
+.search-query
+{
+	text-align:left;
+}

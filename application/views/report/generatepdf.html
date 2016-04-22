@@ -1,0 +1,73 @@
+<html>
+<head>
+
+<link type="text/css" href="performance_is.net/libs/css/bootstrap.css" rel="stylesheet" />
+<link type="text/css" href="performance_is.net/libs/css/bootstrap-responsive.min.css" rel="stylesheet"/>
+<link type="text/css" href="performance_is.net/libs/css/smoothness/jquery.ui.all.css" rel="stylesheet"/>
+<link type="text/css" href="performance_is.net/libs/css/main.css" rel="stylesheet"/>
+		
+</head>
+<body>
+		
+<div class="divall form-olahdata" style='text-align:left'>
+
+	<h4 style='border-bottom:1px solid #3B5998;'>View Report</h4>
+	
+	<h5 style='margin-left:10px;'>Total Company<br />This Year To Date<br />
+	<?php 
+		switch( $inforeport[0]['periodname'] ){
+			case 'jan':$months='January';break;
+			case 'feb':$months='February';break; 
+			case 'mar':$months='March';break;
+			case 'apr':$months='April';break;
+			case 'mei':$months='May';break;
+			case 'jun':$months='June';break;
+			case 'jul':$months='July';break;
+			case 'aug':$months='August';break;
+			case 'sep':$months='September';break;
+			case 'okt':$months='October';break;
+			case 'nop':$months='November';break;
+			case 'des':$months='December';break;
+		}
+		print $months.' '.$inforeport[0]['year']; 
+	?></h5>
+	
+	<div class='row'>
+	
+	<div class='span9'>
+	<br />
+	<table class="table table-striped table-hover table-condensed table-bordered">
+	<thead>
+		<tr >
+			<th style='text-align:center;vertical-align: middle;' rowspan='2'>Measure</th>
+			<th>Actual</th>
+			<th>Target</th>
+			<th>Last Year</th>
+		</tr>
+		<tr>
+			
+			<th>Data</th>
+			<th>Data</th>
+			<th>Data</th>
+		</tr>
+	</thead>
+	<tbody>
+		<?php foreach( $detailreport as $row ) { ?>
+		<tr>
+			<td><?php print $row['name']; ?></td>
+			<td><?php print $row['actual']; ?></td>
+			<td><?php print $row['target']; ?></td>
+			<td><?php print $row['actuallastyear']; ?></td>
+		</tr>
+		<?php } ?>
+	</tbody>
+	</table>
+	</div>
+	</div>
+</div>
+
+
+
+
+</body>
+</html>
